@@ -33,11 +33,11 @@ const arrayCartas = [
   },
   {
     nome: "abobora",
-    img: "../imgs/09.png"
+    img: "imgs/09.png"
   },
   {
     nome: "livro",
-    img: "../imgs/01.png"
+    img: "imgs/01.png"
   },
   {
     nome: "chapeu",
