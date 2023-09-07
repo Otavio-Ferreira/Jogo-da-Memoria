@@ -1,27 +1,27 @@
 const arrayCartas = [
   {
     nome: "livro",
-    img: "../imgs/01.png"
+    img: "imgs/01.png"
   },
   {
     nome: "chapeu",
-    img: "../imgs/02.png"
+    img: "imgs/02.png"
   },
   {
     nome: "olho",
-    img: "../imgs/03.png"
+    img: "imgs/03.png"
   },
   {
     nome: "urso",
-    img: "../imgs/04.png"
+    img: "imgs/04.png"
   },
   {
     nome: "zumbi",
-    img: "../imgs/05.png"
+    img: "imgs/05.png"
   },
   {
     nome: "bruxa",
-    img: "../imgs/06.png"
+    img: "imgs/06.png"
   },
   {
     nome: "espantalho",
@@ -41,35 +41,35 @@ const arrayCartas = [
   },
   {
     nome: "chapeu",
-    img: "../imgs/02.png"
+    img: "imgs/02.png"
   },
   {
     nome: "olho",
-    img: "../imgs/03.png"
+    img: "imgs/03.png"
   },
   {
     nome: "urso",
-    img: "../imgs/04.png"
+    img: "imgs/04.png"
   },
   {
     nome: "zumbi",
-    img: "../imgs/05.png"
+    img: "imgs/05.png"
   },
   {
     nome: "bruxa",
-    img: "../imgs/06.png"
+    img: "imgs/06.png"
   },
   {
     nome: "espantalho",
-    img: "../imgs/07.png"
+    img: "imgs/07.png"
   },
   {
     nome: "caixao",
-    img: "../imgs/08.png"
+    img: "imgs/08.png"
   },
   {
     nome: "abobora",
-    img: "../imgs/09.png"
+    img: "imgs/09.png"
   }
 ]
 
