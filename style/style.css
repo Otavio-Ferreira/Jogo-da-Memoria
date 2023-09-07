@@ -59,6 +59,8 @@ body{
   background: #15181F;
   margin: 20px;
   border-radius: 10px;
+  animation: bounceIn;
+  animation-duration: 1s;
 }
 
 @media(max-width: 780px){
