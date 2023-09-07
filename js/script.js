@@ -115,11 +115,20 @@ function escolher(){
       }
 
       if(pontos == arrayCartas.length / 2){
-        alert('foi boa')
-        window.location.reload();
+        var body = document.getElementById("body")
+        var images = document.getElementsByClassName("txt")
+        var model = `
+          <div class="position-absolute top-50 start-50 translate-middle text-center rounded-3" id="alert">
+            <h1>Buuh!!</h1>
+            <p>Parabéns, você terminou esse jogo da memória. Experimente jogar uma outra dificuldade ou jogue na mesma novamente.</p>
+            <button onclick="window.location.reload()">JOGAR NOVAMENTE</button>
+          </div>
+        `
+        body.innerHTML += model
+        body.style.backdropFilter = " brightness(5%)"
       }
       escolhidas = []
-    }, 400)
+    }, 1000)
   }
   
 }
