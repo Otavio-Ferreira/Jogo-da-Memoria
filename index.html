@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Memoria</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body onload="criarGrade()">
+  <main class="container w-100 d-flex justify-content-center flex-wrap aling-content-center p-1">
+    <div class="sub-container-header w-100 p-3 d-flex justify-content-center flex-wrap aling-content-center">
+      <h1 class="title">JOGO DA MEMORIA</h1>
+      <select class="select-nivel">
+        <option selected>Nivel</option>
+        <option value="1">Nivel Facil</option>
+        <option value="2">Nivel Moderado</option>
+        <option value="3">Nivel Dificil</option>
+      </select>
+    </div>
+    <div class="sub-container-main d-flex flex-wrap justify-content-center aling-content-center" id="caixa">
+
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

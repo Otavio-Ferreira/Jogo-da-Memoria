@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'October Crow';
+  src: url('../fonts/October\ Crow.ttf');
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-image: url('../imgs/backgroundimage.png');
+  background-size: cover;
+  background-position: center center;
+  backdrop-filter: brightness(30%);
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.title{
+  font-family: October Crow;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+  color: #ECC839;
+  width: 100%;
+}
+
+.select-nivel{
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #2B0E11, #2B0E11),
+  linear-gradient(0deg, #EE9430, #EE9430);
+  border: 1px solid #EE9430;
+  color: #EE9430;
+}
+
+.sub-container-main {
+  width: 1200px;
+}
+
+
+#caixa img{
+  width: 160px;
+  height: 160px;
+  background: #15181F;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media(max-width: 780px){
+  .title{
+    font-size: 52px;
+  }
+  .select-nivel{
+    width: 260px;
+  }
+
+  #caixa img{
+    width: 120px;
+    height: 120px;
+  }
+  .sub-container-main {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width: 450px){
+  #caixa img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+}
